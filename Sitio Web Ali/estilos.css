@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC:wght@700&display=swap');
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    background-color: lightblue;
+
+    
+}
+
+
+.main_menu{
+    width: 80%;
+    padding-top: 10px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+}
+
+.derecha{
+    
+    width: 80%;
+    background-color: black;
+    height: 300px;
+    display: flex;
+    margin: 60px auto 0;
+    flex-direction: column;
+    overflow: hidden;
+    
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+}
+
+
+
+
+
+
+.menu_link{
+    text-decoration: none;
+    color: white;
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+.menu_link:hover{
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+.titulo_principal{
+    color: white;
+    margin-left: 20px;
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: normal; 
+    
+}
+
+.titulo{
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: normal;
+}
+
+.artista{
+    width: 80%;
+    margin: auto;
+    height: 650px;
+    display: flex;
+    margin: 0 auto 30px;
+    
+    
+    /* background-color: lightsteelblue; */
+
+}
+.artista_cover{
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    padding: 30px 0 0px 0;
+    /* background-color: maroon; */
+}
+
+.artista_img{
+    width: fit-content;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0 0px 30px;
+    width: 50%;
+    height: 650px;
+    /* background-color: magenta; */
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 30px 30px 0px;
+    width: 50%;
+    height: 650px;
+    /* background-color: magenta; */
+}
+
+.historia{
+    overflow: hidden;
+    height: 50%;
+    background-color: lightyellow;
+    padding: 30px;
+}
+
+.curiosidades{
+    overflow: hidden;
+    height: 50%;
+    background-color: lightpink;
+    padding: 30px
+}
+
+
+.artwork_img{
+    width: 800px;
+}
+
+
+.video_card{
+    overflow: hidden;
+    background-color: rgb(212, 151, 253)
+
+}
+
+.video_historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+}
+
+.video_texto{
+
+    color: black;
+    margin-left: 20px;
+    font-family: bebas-neue-by-fontfabric, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    width: 80%;
+    height: 80px;
+    text-align: center;
+}
