@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="../css/style_one.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+<h1 id="cabecera">Formularios en html</h1>
+</header>
+<nav>
+	<ul id="nav">
+		<li>Mi primera página </li>
+		<li>Tablas</li>
+		<li>Audio</li>
+		<li>Enlances</li>
+		<li>Imagenes</li>
+		<li>Video</li>
+		<li>Animación</li>
+		<li>Formularios</li>
+	</ul>
+<main>
+<body>
+<section id="section">
+   <h2>Formulario básico</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel egestas turpis. Fusce aliquam felis ut ante porttitor vulputate. Nam nisl metus, eleifend nec volutpat id, varius at ipsum. </p>
+	<form action="ACTIONPAGE.html" method="get" target="_self" autocomplete="off">
+	<label>Nombre:</label>
+	<input type="text">
+	<label>Apellidos:</label>
+	<input type="texto">
+	<input type="submit" value="Enviar">
+	</form>
+</section>
+	<section id="section">
+   <h2>Formulario con lista despegable</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel egestas turpis. Fusce aliquam felis ut ante porttitor vulputate. Nam nisl metus, eleifend nec volutpat id, varius at ipsum. </p>
+	<form action="ACTIONPAGE.html" method="post">
+	<label>Nombre</label>
+	<input type="text" id="nombre" name="nombre"><br><br><br>
+	<label for="país">País</label>
+	<select id="pais">
+	<option value="Mx">México</option>
+	<option value="Es">España</option>
+	<option value="It">Italia</option>
+	<option value="Ar">Argentina</option>
+	<option value="Pe">Perú</option>
+	</select><br><br><br>
+	<label>¿Qué país haz visitado?</label>
+	<select id="pais">
+	<option value="Mx">México</option>
+	<option value="Es">España</option>
+	<option value="It">Italia</option>
+	<option value="Ar">Argentina</option>
+	<option value="Pe">Perú</option>
+	</select>
+	</form>
+</section>
+	<section id="section">
+   <h2>Formulario básico</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel egestas turpis. Fusce aliquam felis ut ante porttitor vulputate. Nam nisl metus, eleifend nec volutpat id, varius at ipsum. </p>
+	<label for="nombre">Nombre</label>
+	<input type="text" id="nombre" name="nombre"></input>
+	<label for="correo">Correo electrónico</label>
+	<input type="email" id="correo" name="correo">
+	<label for="mensaje">Mensaje</label>
+	<textarea name="mensaje" rows="5" cols="20"Escribe aquí tu mensaje...></textarea>
+	
+</section>
+	<section id="section">
+   <h2>Formulario utilizando varios tipos de input</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel egestas turpis. Fusce aliquam felis ut ante porttitor vulputate. Nam nisl metus, eleifend nec volutpat id, varius at ipsum. </p>
+	<form>
+	<label for="nombre">Nombre</label>
+	<input type="text" id="nombre" name="nombre"></input>
+	<label for="nacimiento">Nacimiento</label>
+	<input type="date" id="nacimiento" name="nacimiento">
+	<label for="genero">Genero</label>
+	<input type="radio" id="genero" name="genero"><label>Femenino</label>
+	<input type="radio" id="genero" name="genero"><label>Masculino</label>
+	<input type="radio" id="genero" name="genero"><label>No me identifico con ninguno</label><br><br>
+	<br>
+	<label for="musica">Elige de la lista los géneros que más te gusten</label>
+	<input type="checkbox" id="musica" name="musica" value="pop"><label>Pop</label>
+	<input type="checkbox" id="musica" name="musica" value="Jazz"><label>Jazz</label>
+	<input type="checkbox" id="musica" name="musica" value="Rock"><label>Rock</label>
+	<input type="checkbox" id="musica" name="musica" value="Blues"><label>Blues</label>
+	<input type="checkbox" id="musica" name="musica" value="Alternativa"><label>Alternativa</label>
+	</form>
+</section>
+<section id="section">
+   <h2>Formulario básico</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel egestas turpis. Fusce aliquam felis ut ante porttitor vulputate. Nam nisl metus, eleifend nec volutpat id, varius at ipsum. </p>
+	<form action="ACTIONPAGE.html" method="get" target="_self" autocomplete="off">
+	<label>Nombre:</label>
+	<input type="text">
+	<label>Apellidos:</label>
+	<input type="texto">
+	<input type="submit" value="Enviar">
+	<label for="Color">Color:</label>
+	<input type="color" name="color" id="color">
+	<input type="submit" value="Enviar">
+	<label for="mes">Mes:</label>
+	<input type="month" name="mes" id="mes">
+	<input type="submit" value="Enviar">
+	</form>
+</section>
+</main>
+</body>
+</html>
